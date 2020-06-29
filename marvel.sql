@@ -348,17 +348,15 @@ SELECT * FROM movies;
 --  20 | Avengers: Infinity War              | 2018 | 00:00
 -- (8 rows)
 
-DELETE FROM movies WHERE id BETWEEN 10 AND 13;
+DELETE FROM movies WHERE year BETWEEN 2014 AND 2016;
 SELECT * FROM movies;
 
--- DELETE 4
---  id |           title            | year | show_time 
--- ----+----------------------------+------+-----------
---  14 | Captain America: Civil War | 2016 | 12:35
---  15 | Doctor Strange             | 2016 | 22:00
---  19 | Black Panther              | 2018 | 21:00
---  20 | Avengers: Infinity War     | 2018 | 00:00
--- (4 rows)
+-- DELETE 6
+--  id |         title          | year | show_time 
+-- ----+------------------------+------+-----------
+--  19 | Black Panther          | 2018 | 21:00
+--  20 | Avengers: Infinity War | 2018 | 00:00
+-- (2 rows)
 
 DELETE FROM people WHERE name != 'Homer Simpson';
 SELECT * FROM people;
