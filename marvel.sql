@@ -286,4 +286,9 @@ SELECT * FROM movies;
 --   7 | Iron Man 3                          | 2013 | 20:45
 -- (19 rows)
 
+-- ## Extension
 
+-- 1.  Research how to delete multiple entries from your table in a single command.
+
+DELETE FROM movies WHERE year = 2017;
+SELECT * FROM movies;
