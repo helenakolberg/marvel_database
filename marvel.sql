@@ -292,3 +292,24 @@ SELECT * FROM movies;
 
 DELETE FROM movies WHERE year = 2017;
 SELECT * FROM movies;
+
+-- DELETE 3
+--  id |                title                | year | show_time 
+-- ----+-------------------------------------+------+-----------
+--   1 | Iron Man                            | 2008 | 17:00
+--   2 | The Incredible Hulk                 | 2008 | 23:55
+--   3 | Iron Man 2                          | 2010 | 18:45
+--   4 | Thor                                | 2011 | 15:45
+--   5 | Captain America: The First Avenger  | 2011 | 14:15
+--   6 | Avengers Assemble                   | 2012 | 14:45
+--   8 | Thor: The Dark World                | 2013 | 22:55
+--  10 | Captain America: The Winter Soldier | 2014 | 18:25
+--  11 | Guardians of the Galaxy             | 2014 | 13:10
+--  12 | Avengers: Age of Ultron             | 2015 | 20:20
+--  13 | Ant-Man                             | 2015 | 13:00
+--  14 | Captain America: Civil War          | 2016 | 12:35
+--  15 | Doctor Strange                      | 2016 | 22:00
+--  19 | Black Panther                       | 2018 | 21:00
+--  20 | Avengers: Infinity War              | 2018 | 00:00
+--   7 | Iron Man 3                          | 2013 | 20:45
+-- (16 rows)
