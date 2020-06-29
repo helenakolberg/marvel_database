@@ -347,3 +347,15 @@ SELECT * FROM movies;
 --  19 | Black Panther                       | 2018 | 21:00
 --  20 | Avengers: Infinity War              | 2018 | 00:00
 -- (8 rows)
+
+DELETE FROM movies WHERE id BETWEEN 10 AND 13;
+SELECT * FROM movies;
+
+-- DELETE 4
+--  id |           title            | year | show_time 
+-- ----+----------------------------+------+-----------
+--  14 | Captain America: Civil War | 2016 | 12:35
+--  15 | Doctor Strange             | 2016 | 22:00
+--  19 | Black Panther              | 2018 | 21:00
+--  20 | Avengers: Infinity War     | 2018 | 00:00
+-- (4 rows)
