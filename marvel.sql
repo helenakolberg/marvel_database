@@ -313,3 +313,37 @@ SELECT * FROM movies;
 --  20 | Avengers: Infinity War              | 2018 | 00:00
 --   7 | Iron Man 3                          | 2013 | 20:45
 -- (16 rows)
+
+
+DELETE FROM people WHERE id > 9;
+SELECT * FROM people;
+
+-- DELETE 7
+--  id |      name      
+-- ----+----------------
+--   1 | Homer Simpson
+--   2 | Marge Simpson
+--   3 | Lisa Simpson
+--   4 | Maggie Simpson
+--   5 | Patty Bouvier
+--   6 | Selma Bouvier
+--   7 | Kent Brockman
+--   8 | Ned Flanders
+--   9 | Barney Gumble
+-- (9 rows)
+
+DELETE FROM movies WHERE id < 10;
+SELECT * FROM movies;
+
+-- DELETE 8
+--  id |                title                | year | show_time 
+-- ----+-------------------------------------+------+-----------
+--  10 | Captain America: The Winter Soldier | 2014 | 18:25
+--  11 | Guardians of the Galaxy             | 2014 | 13:10
+--  12 | Avengers: Age of Ultron             | 2015 | 20:20
+--  13 | Ant-Man                             | 2015 | 13:00
+--  14 | Captain America: Civil War          | 2016 | 12:35
+--  15 | Doctor Strange                      | 2016 | 22:00
+--  19 | Black Panther                       | 2018 | 21:00
+--  20 | Avengers: Infinity War              | 2018 | 00:00
+-- (8 rows)
