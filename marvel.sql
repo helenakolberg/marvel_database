@@ -359,3 +359,12 @@ SELECT * FROM movies;
 --  19 | Black Panther              | 2018 | 21:00
 --  20 | Avengers: Infinity War     | 2018 | 00:00
 -- (4 rows)
+
+DELETE FROM people WHERE name != 'Homer Simpson';
+SELECT * FROM people;
+
+-- DELETE 8
+--  id |     name      
+-- ----+---------------
+--   1 | Homer Simpson
+-- (1 row)
